@@ -1,0 +1,17 @@
+.\" Manual para teste.
+.\" Contato marcos@terminalroot.com.br para corrigir erros ou erros de digitação.
+.TH man 8 "26 fevereiro 2018 " "1.0" "manual do comando teste"
+.SH NOME
+teste \- printa uma mensagem na tela 
+.SH SINOPSE
+teste [MENSAGEM]
+.SH DESCRIÇÃO
+teste é um programa de shell de alto nível para exibir mensagem. No Debian, os administradores normalmente devem usar teste.debian(8).
+.SH OPÇÕES
+O teste não possui nenhuma opção. No entanto, você pode fornecer a mensagem.
+.SH VEJA TAMBÉM
+marcos(8), nada(5), algo.debian(8) 
+.SH BUGS
+Não há bugs/problemas
+.SH AUTOR
+Marcos Oliveira (marcos@terminalroot.com.br)

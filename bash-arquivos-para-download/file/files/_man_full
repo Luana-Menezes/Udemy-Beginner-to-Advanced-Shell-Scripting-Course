@@ -1,0 +1,79 @@
+.\" Manual para teste.
+.\" Contato marcos@terminalroot.com.br para corrigir erros ou erros de digitação.
+.TH TESTE 1
+.SH NOME
+teste \- printa uma mensagem na tela 
+.SH SINOPSE
+teste [MENSAGEM]
+.SH DESCRIÇÃO
+teste é um programa de shell de alto nível para exibir mensagem. No Debian, os administradores normalmente devem usar teste.debian(8).
+.I teste
+bla bla bla bla bla bla
+bla bla bla bla bla blabla bla bla bla bla bla
+bla bla bla bla bla bla
+bla bla bla bla bla blabla bla bla bla bla bla
+bla bla bla bla bla bla
+bli bli bli
+bla bla bla bla bla blabla bla bla bla bla bla
+bla bla bla bla bla bla
+.I teste
+bla bla bla bla bla bla
+.I teste
+bla bla bla bla bla bla
+.PP
+Older implementations of
+.I teste
+bla bla bla bla bla blabla bla bla bla bla bla
+bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla bla bla
+bla bla bla bla bla blabla bla bla
+bla bla bla bla bla bla
+.I teste
+bla bla bla bla bla bla.
+.PP
+bla bla bla bla bla bla.
+.I teste
+bla bla bla bla bla bla.
+.SH OPÇÕES
+O teste não possui nenhuma opção. No entanto, você pode fornecer a mensagem.
+.TP
+.B \-nada
+nunca faz nada e nunca fará
+.TP
+.B \-semnome
+não tem denominação
+.SH EXAMPLES
+.RS
+teste \-nada f \-semnome Ninguém
+.RE
+.PP
+bla bla bla bla bla bla ter 05 jun 2018 23:00:24 -03 .
+bla bla bla bla bla bla.
+bla bla bla bla bla bla.bla bla bla bla bla bla.
+.I teste
+bla bla bla bla bla bla.bla bla bla bla bla bla.
+bla bla bla bla bla bla.
+bla bla bla bla bla bla.bla bla bla bla bla bla.bla bla bla bla bla bla.
+bla bla bla bla bla bla.bla bla bla bla bla bla.
+bla bla bla bla bla bla.
+.PP
+The
+.IR nada (1)
+bla bla bla bla bla bla.bla bla bla bla bla bla.
+.I teste
+bla bla bla bla bla bla.
+bla bla bla bla bla bla.
+.PP
+A
+.I teste
+bla bla bla bla bla bla.
+.PP
+bla bla bla bla bla bla.
+.IR teste ,
+bla bla bla bla bla bla.
+.SH VEJA TAMBÉM
+terminalroot(8), marcos(5), shell-extremo(8) 
+.SH BUGS
+Não há bugs/problemas
+.SH AUTOR
+Marcos Oliveira (marcos@terminalroot.com.br)

@@ -1,0 +1,46 @@
+\input texinfo   @c -*-texinfo-*-
+@comment $Id@w{$}
+@comment %**start of header
+@include _null.texi
+@settitle Teste de software
+@syncodeindex pg cp
+@comment %**end of header
+@dircategory Teste diretório da documentação
+@direntry
+* sample: (sample)Invoking sample.
+@end direntry
+@titlepage
+@title GNU Teste
+@subtitle versão
+@author Marcos Oliveira
+@page
+@vskip 0pt plus 1filll
+@insertcopying
+@end titlepage
+@contents
+@ifnottex
+@node Top
+@top GNU Teste
+Esse é o manual para GNU Teste
+@end ifnottex
+@menu
+* Chamando amostra::
+* GNU Free Documentation License::
+* Index::
+@end menu
+@node Chamando amostra
+@chapter Chamando amostra
+@pindex amostra
+@cindex chamando @command{sample}
+Isso é um simples manual e documentação
+para o comando Teste. Somente para
+fins didáticos. Conheça também:
+makeinfo help2man gdoc ltxindex textadept
+a2ps docbook2x man2texi texi2latex
+texi2roff texiweb pinfo tkinfo
+@node GNU Free Documentation License
+@appendix GNU Free Documentation License
+@node Index
+@unnumbered Index
+@printindex cp
+@bye

@@ -1,4 +1,6 @@
 
+# Some anotations
+
 ## Variables and Arrays
 
 ### Enviroment variables
@@ -142,47 +144,70 @@ or
     [ 1=1 ]; echo $?
 ```
 
-| Comparação Numérica   |Comparação Numérica |
+| Numerical Comparison |Numeric Comparison |
 |-----------------------|-----------------------|
-| -lt                   | É menor que (LessThan)                  |
-| -gt                   | É maior que (GreaterThan)               |
-| -le                   | É menor igual (LessEqual)               |
-| -ge                   | É maior igual (GreaterEqual)            |
-| -eq                   | É igual (EQual)                         |
-| -ne                   | É diferente (NotEqual)                  |
-| Comparação de Strings |
-| =                     | É igual                                 |
-| !=                    | É diferente                             |
-| -n                    | É não nula                              |
-| -z                    | É nula                                  |
-| Operadores Lógicos    |
-| !                     | NÃO lógico (NOT)                        |
-| -a                    | E lógico (AND)                          |
-| -o                    | OU lógico (OR)                          |
-| Testes em arquivos    |
-| -b                    | É um dispositivo de bloco               |
-| -c                    | É um dispositivo de caractere           |
-| -d                    | É um diretório                          |
-| -e                    | O arquivo existe                        |
-| -f                    | É um arquivo normal                     |
-| -g                    | O bit SGID está ativado                 |
-| -G                    | O grupo do arquivo é o do usuário atual |
-| -k                    | O sticky-bit está ativado               |
-| -L                    | O arquivo é um link simbólico           |
-| -O                    | O dono do arquivo é o usuário atual     |
-| -p                    | O arquivo é um named pipe               |
-| -r                    | O arquivo tem permissão de leitura      |
-| -s                    | O tamanho do arquivo é maior que zero   |
-| -S                    | O arquivo é um socket                   |
-| -t                    | O descritor de arquivos N é um terminal |
-| -u                    | O bit SUID está ativado                 |
-| -w                    | O arquivo tem permissão de escrita      |
-| -x                    | O arquivo tem permissão de execução     |
-| -nt                   | O arquivo é mais recente (NewerThan)    |
-| -ot                   | O arquivo é mais antigo (OlderThan)     |
-| -ef                   | O arquivo é o mesmo (EqualFile)         |
+| -lt | Is less than (LessThan) |
+| -gt | Is greater than (GreaterThan) |
+| -le | LessEqual (LessEqual) |
+| -ge | GreaterEqual |
+| -eq | Equals (EQual) |
+| -ne | Is Different (NotEqual) |
+| String Comparison |
+| = | is equal |
+| != | It's different |
+| -n | Is not null |
+| -z | Is null |
+| Logical Operators |
+| ! | logical NOT (NOT) |
+| -a | And logical (AND) |
+| it | Logical OR (OR) |
+| Tests in files |
+| -b | It is a block device |
+| -c | It's a character device |
+| -d | Is a directory |
+| -e | File exists |
+| -f | It's a regular file |
+| -g | SGID bit is on |
+| -G | The file's group is that of the current user |
+| -k | Sticky-bit is on |
+| -L | The file is a symbolic link |
+| -O | The file owner is the current user |
+| -p | The file is a named pipe |
+| -r | File has read permission |
+| -s | File size is greater than zero |
+| -S | The file is a socket |
+| -t | The file descriptor N is a terminal |
+| -u | SUID bit is on |
+| -w | File is writable |
+| -x | File has execute permission |
+| -nt | The file is newer (NewerThan) |
+| -ot | The file is older (OlderThan) |
+| -ef | The file is the same (EqualFile) |
 
-### IF
+### IF ELSE
 
-Unlike other languages, 'if' tests a command and not a condition. But the test command tests conditions, so just use it in conjunction with if.
+Unlike other languages, 'if' tests a command and not a condition. But the 'test' command tests conditions, so just use it in conjunction with if.
+
+### LOOPS
+
+- CONTINUE, BREAK, EXIT
+
+### I/O
+
+### Math in Shell Scripts
+
+### How to create graphical and interactive programs with Shell Script
+
+- Dialog
+- Yad
+- Xdialog
+- Kdialog
+- Whiptail
+- Udpm
+- PythonDialog
+- Gdialog
+
+### How to create websites with Shell Script, Bootstrap e HTML5
+
+
 
